@@ -96,7 +96,7 @@ h1, h2, h3, h4, h5 {
 .heading{
 	display:inline-block;
 	font-family:sans-serif;
-	margin:10%;
+	margin:10% 10px 10px;
 	padding:2%;
 	font-size: 75px;
 }
@@ -145,15 +145,14 @@ h1, br .heading  {
 	text-align:center;
 	padding:2px;
 	line-height:25px;
-	margin:2px 5px 15px 5px;
+	margin:2px 5px 15px 100px;
 
 
 }
 
 #code_snip{
 	display:inline-block;
-	margin: 0 0 1% 1%;
-	vertical-align:middle;
+	margin: 0;
 	float:left;
 }
 .top-content{
@@ -173,7 +172,7 @@ h1, br .heading  {
 .tops{
 	display:inline
 	vertical-align:top;
-	margin-bottom:25px;
+	margin-bottom:15px;
 }
 .middle-img {
 	width:100vw;
@@ -210,6 +209,7 @@ h1, br .heading  {
 
 hr {
 	border:1px solid black;
+	margin: 80px 10px 15px 3px;
 }
 .contact {
 	width: 120px;
