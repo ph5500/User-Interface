@@ -143,9 +143,10 @@ h1, br .heading  {
 
 }
 
-#feats{
-	display:inline;
+.top-content{
 	width:100px;
+	display:inline-block;
+	margin:0 auto;
 }
 
 
