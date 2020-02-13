@@ -82,10 +82,14 @@ h1, h2, h3, h4, h5 {
 	font-size:15px;
 	color:#D3D3D3;
 	padding:1%;
+	background-color:purple;
+}
+.nav{
+	margin-top:5px;
 }
 
 .logo {
-	margin:2px 12px 0 auto;
+	margin-top:20px;
 	display:inline-block;
 
 }
@@ -112,10 +116,13 @@ h1, br .heading  {
 }
 
 .header-right {
-	display:inline-block;
+
+	border: 100px;
+	display:inline;
 	position:relative;
 	left: 45%;
-	padding:150px;
+
+	padding:0px;
 
 }
 
@@ -138,17 +145,57 @@ h1, br .heading  {
 	width:150px;
 	text-align:center;
 	padding:2px;
-	margin:5px;
 	line-height:25px;
+	margin:20px 5px auto auto;
+
 
 }
 
-.top-content{
-	width:100px;
+#code_snip{
 	display:inline-block;
-	margin:0 auto;
+	margin: 0 0 1% 1%;
+	float:right;
+}
+.top-content{
+	width:690px;
+	display:inline-block;
+	margin:0 0 1% 1%;
+
 }
 
+.top-about {
+	width: 700px;
+	display:inline-block;
+	margin:0 0 1% 1%;
+
+}
+
+.middle-img {
+	width:100vw;
+	margin:0 1% auto;
+}
+
+.bottom-content{
+	width: 462px;
+	display: inline-block;
+	margin: 0 0 1% 1%;
+
+}
+
+.more-content {
+	width: 460px;
+	display: inline-block;
+	margin: 0 0 1% 1%;
+
+
+}
+
+.vision-content {
+	width: 460px;
+	display: inline-block;
+	margin: 0 0 1% 1%;
+	float:right;
+}
 
 
 #abt {
@@ -160,7 +207,23 @@ hr {
 	border:1px solid black;
 }
 .contact {
-	width: 100px;
+	width: 120px;
+	padding:0 1% auto auto;
+	margin: 0;
+	line-height: 1em;
+}
+
+.address{
+	margin:0 0 1% auto;
+	padding: 0 0 0 0;
+}
+
+
+
+.phone {
+	width:140px;
+	padding: 0 1% auto auto;
+	margin: 0;
 }
 
 footer {
