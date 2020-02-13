@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,22 +12,29 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/*border: 0;*/
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+	border: 2px solid red;
+	box-sizing:border-box;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+
+
+
+
 body {
 	line-height: 1;
 }
@@ -64,3 +71,98 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.nav {
+	width:5px;
+	display:inline;
+	margin:5px;
+	height:5px;
+	word-spacing: 8em;
+	font-family:helvetica;
+	font-size:15px;
+	color:#D3D3D3;
+	padding:1%;
+}
+
+.logo {
+	margin:2px 12px 0 auto;
+	display:inline-block;
+
+}
+
+.heading{
+	display:inline-block;
+	font-family:sans-serif;
+	margin:10%;
+	padding:2%;
+	font-size: 75px;
+}
+
+h1, br .heading  {
+	text-align:center;
+}
+
+ h1 .heading {
+	display:inline-block;
+	margin: 25%;
+	font-size: 20px;
+	padding: 15px;
+	font-size: 50px;
+
+}
+
+.header-right {
+	display:inline-block;
+	position:relative;
+	left: 45%;
+	padding:150px;
+
+}
+
+
+
+/*.first_img{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	width:100%;
+
+}
+*/
+
+.button{
+	font-family: sans-serif;
+	color:black;
+	font-size: 20px;
+	border: 1px solid black;
+	width:150px;
+	text-align:center;
+	padding:2px;
+	margin:5px;
+	line-height:25px;
+
+}
+
+#feats{
+	display:inline;
+	width:100px;
+}
+
+
+
+#abt {
+	text-align:right;
+	display:inline;
+}
+
+hr {
+	border:1px solid black;
+}
+.contact {
+	width: 100px;
+}
+
+footer {
+	width:100vw;
+	text-align:center;
+}
